@@ -17,7 +17,7 @@
 #     artifact-name: corne_left_with_logging
 #
 ---
-#include:
+include:
  # - board: xryue45
 
   - board: nrfmicro_13
