@@ -18,10 +18,8 @@
 #
 ---
 include:
- # - board: xryue45
-
-  - board: nrfmicro_13
+   - board: nrfmicro_13
     shield: xryue45
-     artifact-name: xryue45
+     #artifact-name: xryue45
  # - board: nice_nano_v2
   #  shield: settings_reset
