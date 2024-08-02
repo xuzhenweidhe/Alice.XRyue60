@@ -20,7 +20,7 @@
         { "label":   "I", "row": 0, "col":  13, "x":     12, "y":  0 },
         { "label":   "O", "row": 0, "col":  14, "x":     13, "y":  0 },
         { "label":   "P", "row": 0, "col":  15, "x":     14, "y":  0 },
-        { "label": "BSPC", "row": 0, "col": 16, "x":    15, "y":   0 },
+        { "label": "BSPC", "row": 0, "col": 16, "x":     15, "y":   0 },
 
 
 
@@ -37,7 +37,7 @@
         { "label":   "G", "row": 1, "col":  10, "x":    9.5, "y":   1 },
         { "label":   "H", "row": 1, "col":  11, "x":    10.5, "y":  1 },
         { "label":   "J", "row": 1, "col":  13, "x":    11.5, "y":  1 },
-        { "label":   "K", "row": 1, "col":  15, "x":    12.5, "y":  1 },
+        { "label":   "K", "row": 1, "col":  14, "x":    12.5, "y":  1 },
         { "label":   "L", "row": 1, "col":  15, "x":    13.5, "y":  1 },
         { "label": "ENT", "row": 1, "col":  16, "x":    14.5, "y":  1 , "h": 1.5},
 
@@ -69,7 +69,7 @@
         { "label": "LCT", "row": 3, "col":  5, "x":     4, "y":      3 },
         { "label": "LWR", "row": 3, "col":  6, "x":     5, "y":      3 },
         { "label": "ALT", "row": 3, "col":  7, "x":     6, "y":      3 },
-        { "label": "FN", "row": 3, "col":  8,  "x":     7, "y":      3  , "h": 1.25},
+        { "label": "FN",  "row": 3, "col":  8,  "x":    7, "y":      3  , "h": 1.25},
         { "label": "SPC", "row": 3, "col":  10, "x":    8.25, "y":   3  , "h": 1.75},
         { "label": "SPC", "row": 3, "col":  11, "x":    10, "y":     3  , "h": 1.75},
         { "label":   "FN", "row": 3, "col": 13, "x":    11.75, "y":  3  , "h": 1.25},
