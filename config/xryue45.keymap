@@ -28,7 +28,7 @@
                 , <&macro_press &kp LSHFT>
                 , <&macro_tap &kp X &kp Z &kp W>
                 , <&macro_release &kp LSHFT>
-	, <&kp N1 &kp N9 &kp N9 &kp N1 &kp EXCL>
+	        , <&macro_tap &kp N1 &kp N9 &kp N9 &kp N1 &kp EXCL>
                 ;
         };
 
@@ -40,7 +40,7 @@
                 , <&macro_press &kp LSHFT>
                 , <&macro_tap &kp W &kp L>
                 , <&macro_release &kp LSHFT>
-                , <&kp AT &kp O &kp P &kp S>   
+                , <&macro_tap &kp AT &kp O &kp P &kp S>   
 	, <&kp N6 &kp N1 &kp N8>
                 ;
         };
