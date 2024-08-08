@@ -13,7 +13,7 @@
 
 / {
     macros {
-        123: 123 {
+        pin: pin {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
@@ -54,6 +54,25 @@
             key-positions = <24 25>;
             bindings = <&kp CAPS>;
         };
+
+        combo_qj {
+            timeout-ms = <50>;
+            key-positions = <8 9>;
+            bindings = <&kp LANG5>;
+        };
+
+        combo_f5 {
+            timeout-ms = <50>;
+            key-positions = <12 13>;
+            bindings = <&kp F5>;
+        };
+
+        combo_f12 {
+            timeout-ms = <50>;
+            key-positions = <29 30>;
+            bindings = <&kp F12>;
+        };
+
     };
 	keymap0: keymap {
 		compatible = "zmk,keymap";
@@ -72,7 +91,7 @@
             &none   &none   &none   &none   &kp BSPC    &kp KP_DOT   &kp N7    &kp N8         &kp N9    &kp KP_PLUS     &kp KP_MULTIPLY    &kp DLLR      &kp COLON       &kp SEMI      &kp GRAVE      &kp DEL
             &none   &none   &none   &none   &kp TAB     &kp N0       &kp N4    &kp N5         &kp N6    &kp KP_MINUS    &kp KP_SLASH       &none         &kp HASH        &kp LBRC      &kp RBRC       &kp PIPE 
             &none   &none   &none   &none   &kp LSHFT   &kp RSHFT    &kp BSPC  &kp N1         &kp N2    &kp N3          &kp EQUAL          &kp BSLH      &kp AMPS        &kp LT        &kp GT         &kp SQT
-            &none   &none   &none   &none   &kp LCTRL   &kp ESC      &kp LALT  &kp ENTER      &none     &to 0           &kp CAPS           &none         &kp LG(SPACE)   &bt BT_CLR    &bt BT_SEL 1   &bt BT_SEL 2
+            &none   &none   &none   &none   &kp LCTRL   &kp ESC      &kp LALT  &kp ENTER      &none     &to 0           &kp CAPS           &none         &kp LANG5       &pin          &xzw           &jd
              >;
 		};
 
@@ -81,7 +100,7 @@
             &none   &none   &none   &none   &kp BSPC     &kp TILDE    &kp PRCNT   &kp UNDER         &kp CARET    &kp PLUS         &kp F9       &kp F10        &kp F11    &kp F12   &none        &kp LS(DEL)
             &none   &none   &none   &none   &kp TAB      &kp AT       &kp DQT     &kp EXCL          &kp QMARK    &kp MINUS        &kp F5       &none          &kp F6     &kp F7    &kp F8       &kp ENTER
             &none   &none   &none   &none   &kp LSHFT    &kp RSHFT    &kp LBKT    &kp RBKT          &kp LPAR     &kp RPAR         &kp EQUAL    &kp F1         &kp F2     &kp F3    &kp F4       &kp PG_UP  
-            &none   &none   &none   &none   &kp RCTRL    &kp RWIN     &kp RALT    &kp LS(LC(O))     &none        &kp LS(LC(X))    &kp LC(R)    &none          &to 0      &kp HOME  &kp PG_DN    &kp END
+            &none   &none   &none   &none   &kp RCTRL    &kp RWIN     &kp RALT    &kp LS(LC(O))     &none        &kp LS(LC(X))    &kp LC(R)    &none          &to 0      &kp HOME  &kp END      &kp PG_DN
             >;
 		};
 
