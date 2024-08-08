@@ -12,39 +12,7 @@
 #include <dt-bindings/zmk/mouse.h>
 
 / {
-    macros {
-        123: 123 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                = <&kp N1 &kp N2 &kp N3 &kp N1 &kp N2 &kp N3>   
-                ;
-        };
-        xzw: xzw {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                = <&kp X &kp Z &kp W >   
-                , <&macro_press &kp LSHFT>
-                , <&macro_tap &kp X &kp Z &kp W>
-                , <&macro_release &kp LSHFT>
-	        , <&macro_tap &kp N1 &kp N9 &kp N9 &kp N1 &kp EXCL>
-                ;
-        };
-
-        jd: jd {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                 = <&kp J &kp D>   
-                , <&macro_press &kp LSHFT>
-                , <&macro_tap &kp W &kp L>
-                , <&macro_release &kp LSHFT>
-                , <&macro_tap &kp AT &kp O &kp P &kp S>   
-	, <&kp N6 &kp N1 &kp N8>
-                ;
-        };
-    };
+   
 
 
 
