@@ -66,7 +66,7 @@
         };
 
         combo_ctrlc {
-            key-positions = <52 53>;
+            key-positions = <7 8>;
             bindings = <&kp LC(C)>;
         };
 
@@ -82,7 +82,7 @@
 
         combo_ctrlv {
             bindings = <&kp LC(V)>;
-            key-positions = <53 54>;
+            key-positions = <8 9>;
         };
     };
 
