@@ -107,10 +107,10 @@
 
         fn1_layer {
             bindings = <
-&none  &none  &none  &none  &kp BSPC   &kp KP_DOT  &kp N7    &kp N8     &kp N9  &kp KP_PLUS   &kp KP_MULTIPLY  &kp DLLR  &kp COLON  &kp SEMI  &kp GRAVE  &kp DEL
-&none  &none  &none  &none  &kp TAB    &kp N0      &kp N4    &kp N5     &kp N6  &kp KP_MINUS  &kp KP_SLASH     &none     &kp HASH   &kp LBRC  &kp RBRC   &kp PIPE
-&none  &none  &none  &none  &kp LSHFT  &kp RSHFT   &kp BSPC  &kp N1     &kp N2  &kp N3        &kp EQUAL        &kp BSLH  &kp AMPS   &kp LT    &kp GT     &kp SQT
-&none  &none  &none  &none  &kp LCTRL  &kp ESC     &kp LALT  &kp ENTER  &none   &to 0         &kp CAPS         &none     &pin       &sjjs     &xzw       &jd
+&none  &none  &none  &none  &kp BSPC   &kp DOT    &kp N7    &kp N8     &kp N9  &kp KP_PLUS   &kp KP_MULTIPLY  &kp DLLR  &kp COLON  &kp SEMI  &kp GRAVE  &kp DEL
+&none  &none  &none  &none  &kp TAB    &kp N0     &kp N4    &kp N5     &kp N6  &kp KP_MINUS  &kp KP_SLASH     &none     &kp HASH   &kp LBRC  &kp RBRC   &kp PIPE
+&none  &none  &none  &none  &kp LSHFT  &kp RSHFT  &kp BSPC  &kp N1     &kp N2  &kp N3        &kp EQUAL        &kp BSLH  &kp AMPS   &kp LT    &kp GT     &kp SQT
+&none  &none  &none  &none  &kp LCTRL  &kp ESC    &kp LALT  &kp ENTER  &none   &to 0         &kp CAPS         &none     &pin       &sjjs     &xzw       &jd
             >;
         };
 
