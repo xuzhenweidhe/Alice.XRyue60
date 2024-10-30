@@ -19,8 +19,8 @@
 ---
 include:
    - board: nrfmicro_13
-   #- board: nrfmicro_13
-     shield: xryue45
-
-   #- board: nice_nano_v2
-    # shield: settings_reset
+     shield: Alice.XRyue60_left
+   - board: nrfmicro_13
+     shield: Alice.XRyue60_right
+   - board: nice_nano_v2
+     shield: settings_reset
