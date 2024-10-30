@@ -1,11 +1,8 @@
-# [iqk45]
+# [Alice.XRyue60]
 
-A 40% ANSI keyboard designed by X.R yue.
-Design by TigerX
-
-## Features
+A 60% ANSI keyboard designed by X.R yue.
 
 - Uses nRF52840CoreBoard_Micro 
 
 ## Hardware Notes
-https://oshwhub.com/iqirtryi/atmega32a-kb40
+https://github.com/xuzhenweidhe/Alice.XRyue60
