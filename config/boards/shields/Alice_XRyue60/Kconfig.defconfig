@@ -1,17 +1,17 @@
 # Copyright (c) 2020 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-if SHIELD_Alice.XRyue60_LEFT
+if SHIELD_Alice_XRyue60_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "Alice.XRyue60"
+    default "Alice_XRyue60"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
 endif
 
-if SHIELD_Alice.XRyue60_LEFT || SHIELD_Alice.XRyue60_RIGHT
+if SHIELD_Alice_XRyue60_LEFT || SHIELD_Alice_XRyue60_RIGHT
 
 config ZMK_SPLIT
     default y

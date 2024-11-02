@@ -1,4 +1,4 @@
-# [Alice.XRyue60]
+# [Alice_XRyue60]
 
 A 60% ANSI keyboard designed by X.R yue.
 

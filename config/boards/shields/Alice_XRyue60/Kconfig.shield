@@ -2,8 +2,8 @@
 # SPDX-License-Identifier: MIT
 
 
-config SHIELD_Alice.XRyue60_LEFT
-    def_bool $(shields_list_contains,Alice.XRyue60_left)
+config SHIELD_Alice_XRyue60_LEFT
+    def_bool $(shields_list_contains,Alice_XRyue60_left)
 
-config SHIELD_Alice.XRyue60_RIGHT
-    def_bool $(shields_list_contains,Alice.XRyue60_right)
+config SHIELD_Alice_XRyue60_RIGHT
+    def_bool $(shields_list_contains,Alice_XRyue60_right)

@@ -1,6 +1,6 @@
 file_format: "1"
-id: Alice.XRyue60
-name: Alice.XRyue60
+id: Alice_XRyue60
+name: Alice_XRyue60
 type: shield
 url: https://oshwhub.com/joba
 requires: [nrfmicro_13_52840]
@@ -10,5 +10,5 @@ features:
   - display
   - underglow
 siblings:
-  - Alice.XRyue60_left
-  - Alice.XRyue60_right
+  - Alice_XRyue60_left
+  - Alice_XRyue60_right
