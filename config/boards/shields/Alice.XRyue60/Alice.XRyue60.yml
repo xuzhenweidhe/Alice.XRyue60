@@ -1,0 +1,14 @@
+file_format: "1"
+id: Alice.XRyue60
+name: Alice.XRyue60
+type: shield
+url: https://oshwhub.com/joba
+requires: [nrfmicro_13_52840]
+features:
+  - keys
+  - encoder
+  - display
+  - underglow
+siblings:
+  - Alice.XRyue60_left
+  - Alice.XRyue60_right
