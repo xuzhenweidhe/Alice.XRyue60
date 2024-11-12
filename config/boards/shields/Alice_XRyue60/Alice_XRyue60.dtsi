@@ -11,8 +11,16 @@
 	chosen {
 		zmk,kscan = &kscan0;
 		zmk,matrix_transform = &default_transform;
-		
+		zmk,keymap = &keymap;
 	};
+
+	leds {
+        compatible = "gpio - led";
+        caps_led: led_0 {
+            gpios = <&gpio0 26 GPIO_ACTIVE_HIGH>; // 假设caps lock LED连接到GPIO0引脚26，高电平有效
+            label = "CAPS_LOCK_LED";
+        };
+    };
 
 	kscan0: kscan {
 		compatible = "zmk,kscan-gpio-matrix";
