@@ -9,10 +9,8 @@
 #include <physical_layouts.dtsi>
 / {
 	chosen {
-		zmk,kscan = &kscan0;
-		zmk,matrix_transform = &default_transform;
-		zmk,physical-layout = &xryue60;
-		
+		zmk,kscan = &kscan0		
+		zmk,physical-layout = &xryue60;		
 	};
 
 	leds {
@@ -76,7 +74,7 @@ xryue60: xryue60 {
         display-name = "default_transform";
 
         kscan = <&kscan0>;
-        transform = <&keymap_transform_0>;
+        transform = <&default_transform>;
 
         keys  //                     w   h    x    y     rot    rx    ry
             = <&key_physical_attrs 100 100    0    0       0     0     0>
