@@ -76,7 +76,7 @@ xryue60: xryue60 {
         display-name = "default_transform";
 
         kscan = <&kscan0>;
-        transform = <&matrix_transform0>;
+        transform = <&keymap_transform_0>;
 
         keys  //                     w   h    x    y     rot    rx    ry
             = <&key_physical_attrs 100 100    0    0       0     0     0>
