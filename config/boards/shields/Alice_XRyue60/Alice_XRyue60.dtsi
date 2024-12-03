@@ -35,6 +35,10 @@
 			;
 	};
 
+
+
+
+
     left_encoder: encoder_left {
 		compatible = "alps,ec11";
 		a-gpios =<&gpio0 3 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
@@ -71,12 +75,8 @@
 
 xryue60: xryue60 {
         compatible = "zmk,physical-layout";
-        display-name = "default_transform";
-
-        kscan = <&kscan0>;
-        transform = <&default_transform>;
-
-        keys  //                     w   h    x    y     rot    rx    ry
+        display-name = "xryue";
+            keys  //                     w   h    x    y     rot    rx    ry
             = <&key_physical_attrs 100 100    0    0       0     0     0>
             , <&key_physical_attrs 100 100  100    0       0     0     0>
             , <&key_physical_attrs 100 100  200    0       0     0     0>
