@@ -73,6 +73,7 @@
         RC(4,0) RC(4,1) RC(4,2) RC(4,3) RC(4,4)                 RC(4,7)         RC(4,9)          RC(4,11) RC(4,12) RC(4,13)
 		>;
 	};
+};
 
 xryue60: xryue60 {
         compatible = "zmk,physical-layout";
@@ -151,8 +152,4 @@ xryue60: xryue60 {
             , <&key_physical_attrs 100 100 1300  400       0     0     0>
             ;
 }；
-
-
-
-};
 
