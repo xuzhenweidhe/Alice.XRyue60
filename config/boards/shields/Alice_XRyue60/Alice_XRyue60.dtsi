@@ -60,7 +60,7 @@
 		triggers-per-rotation = <20>;
 	};
 
-	default_transform: keymap_transform_0 {
+    default_transform: keymap_transform_0 {
 		compatible = "zmk,matrix-transform";
 		columns = <14>;
 		rows = <5>;
@@ -76,6 +76,9 @@
 xryue60: xryue60 {
         compatible = "zmk,physical-layout";
         display-name = "xryue";
+        kscan = <&kscan0>;
+
+
             keys  //                     w   h    x    y     rot    rx    ry
             = <&key_physical_attrs 100 100    0    0       0     0     0>
             , <&key_physical_attrs 100 100  100    0       0     0     0>
