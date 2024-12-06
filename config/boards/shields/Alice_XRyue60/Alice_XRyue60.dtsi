@@ -11,7 +11,7 @@
 / {
 	chosen {
 		zmk,kscan = &kscan0		
-		zmk,physical-layout = &xryue60;	
+		zmk,physical-layout = &xryue60_layout;	
 	};
 
 	leds {
@@ -76,7 +76,6 @@
 };
 
 
-&xryue60 {
+&xryue60_layout {
     transform = <&default_transform>;
-  
-};
+  };
