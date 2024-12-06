@@ -6,7 +6,7 @@
 
 #include <dt-bindings/zmk/matrix_transform.h>
 #include <dt-bindings/led/led.h>
-#include "xryue60_layout.dtsi"
+#include "xryue60-layout.dtsi"
 
 / {
 	chosen {
