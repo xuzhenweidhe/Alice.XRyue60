@@ -78,4 +78,6 @@
 
 &xryue60_layout {
     transform = <&default_transform>;
+    kscan = <&kscan0>;
+
   };

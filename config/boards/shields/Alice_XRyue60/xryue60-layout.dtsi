@@ -3,7 +3,7 @@
 / {
     xryue60_layout: xryue60_layout {
         compatible = "zmk,physical-layout";
-        display-name = "xryue60_layout";
+        display-name = "xryue60";
 
 
         keys  //                     w   h    x    y     rot    rx    ry
