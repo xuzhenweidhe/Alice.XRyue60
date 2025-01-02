@@ -6,12 +6,12 @@
 
 #include <dt-bindings/zmk/matrix_transform.h>
 #include <dt-bindings/led/led.h>
-#include <xryue60_layout.dtsi>
+#include "xryue60_layout.dtsi"
 
 / {
 	chosen {
 		zmk,kscan = &kscan0;		
-		zmk,physical-layout = &xryue60_layout;	
+		zmk,physical-layout = &xryue60;	
 	};
 
 	leds {

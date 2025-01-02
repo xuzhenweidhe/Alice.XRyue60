@@ -1,10 +1,10 @@
 #include <physical_layouts.dtsi>
 
 / {
-    xryue60_layout: xryue60_layout {
+    xryue60: xryue60 {
         compatible = "zmk,physical-layout";
-        display-name = "xryue60";
-
+        display-name = "XRyue60";
+        
 
         keys  //                     w   h    x    y     rot    rx    ry
             = <&key_physical_attrs 100 100    0    0       0     0     0>
