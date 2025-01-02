@@ -76,8 +76,6 @@
 };
 
 
-&xryue60_layout {
-    transform = <&default_transform>;
-    kscan = <&kscan0>;
-
+&xryue60 {
+    transform = <&default_transform>;  
   };
