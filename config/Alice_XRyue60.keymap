@@ -11,6 +11,41 @@
 #include <dt-bindings/zmk/rgb.h>
 
 / {
+behaviors {
+        caps: caps_lock {
+            compatible = "zmk,behavior-caps-lock";
+            label = "CAPS_LOCK";
+            #binding-cells = <0>;
+        };
+    };
+
+    leds {
+        compatible = "gpio-leds";
+        caps_led: caps_led {
+            gpios = <&gpio0 26 GPIO_ACTIVE_HIGH>; // 根据实际GPIO引脚修改
+            label = "CAPS_LED";
+        };
+    };
+
+    keymap {
+        compatible = "zmk,keymap";
+        default_layer {
+            bindings = <
+                &caps // 将Caps Lock行为绑定到某个键
+            >;
+        };
+    };
+
+    behaviors {
+        caps: caps_lock {
+            compatible = "zmk,behavior-caps-lock";
+            label = "CAPS_LOCK";
+            #binding-cells = <0>;
+            bindings = <&caps_led>; // 绑定Caps Lock行为到LED
+        };
+    };
+
+
     keymap0: combos {
         compatible = "zmk,combos";
 
