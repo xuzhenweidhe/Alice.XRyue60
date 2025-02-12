@@ -9,18 +9,46 @@
 #include "xryue60_layout.dtsi"
 
 / {
+
+ leds {
+        compatible = "gpio-leds";
+        caps_led: caps_led {
+            gpios = <&gpio0 26 GPIO_ACTIVE_HIGH>; // 根据实际GPIO引脚修改
+            label = "CAPS_LED";
+        };
+    };
+
+    keymap {
+        compatible = "zmk,keymap";
+        default_layer {
+            bindings = <
+                &caps // 将Caps Lock行为绑定到某个键
+            >;
+        };
+    };
+
+    behaviors {
+        caps: caps_lock {
+            compatible = "zmk,behavior-caps-lock";
+            label = "CAPS_LOCK";
+            #binding-cells = <0>;
+            bindings = <&caps_led>; // 绑定Caps Lock行为到LED
+        };
+    };
+
+
 	chosen {
 		zmk,kscan = &kscan0;
 		zmk,physical-layouts = &xryue60;
 	};
 
-	leds {
-        compatible = "gpio-leds";
-        caps_led: led_0 {
-            gpios = <&gpio0 26 GPIO_ACTIVE_HIGH>; // 假设caps lock LED连接到GPIO0引脚26，高电平有效
-            label = "CAPS_LOCK_LED";
-        };
-    };
+	//leds {
+      //  compatible = "gpio-leds";
+        //caps_led: led_0 {
+       //     gpios = <&gpio0 26 GPIO_ACTIVE_HIGH>; // 假设caps lock LED连接到GPIO0引脚26，高电平有效
+       //     label = "CAPS_LOCK_LED";
+      //  };
+  //  };
 
 	kscan0: kscan {
 		compatible = "zmk,kscan-gpio-matrix";
