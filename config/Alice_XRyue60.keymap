@@ -11,14 +11,6 @@
 #include <dt-bindings/zmk/rgb.h>
 
 / {
-behaviors {
-        caps: caps_lock {
-            compatible = "zmk,behavior-caps-lock";
-            label = "CAPS_LOCK";
-            #binding-cells = <0>;
-        };
-    };
-
     leds {
         compatible = "gpio-leds";
         caps_led: caps_led {
